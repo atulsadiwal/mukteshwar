@@ -75,7 +75,7 @@ const NavBar = () => {
                     {isMenuOpen && (
                         <div className='md:hidden mt-4'>
                             <nav className='flex flex-col space-y-4'>
-                                {['Home', 'Demos', 'Properties', 'About', 'Blog', 'Contact'].map((item) => (
+                                {['Home'].map((item) => (
                                     <Link
                                         key={item}
                                         href={`/${item.toLowerCase()}`}
