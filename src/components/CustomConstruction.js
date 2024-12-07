@@ -1,6 +1,18 @@
-import React from 'react';
+"use client";
+
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const CustomConstruction = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            once: false,
+            mirror: true,
+        });
+    }, []);
+
     return (
         <>
             <section className="relative bg-cover bg-center py-20 bg-BG6">

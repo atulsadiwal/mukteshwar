@@ -1,6 +1,18 @@
-import React from 'react';
+"use client";
+
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const KeyHighlights = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            once: false,
+            mirror: true,
+        });
+    }, []);
+
     return (
         <>
             <section className="py-20">
