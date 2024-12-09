@@ -87,7 +87,7 @@ const CustomConstruction = () => {
                                 help bring your vision to life with high-quality craftsmanship.
                             </p>
 
-                            <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4">
+                            {/* <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4">
                                 <button
                                     className="px-6 sm:px-8 py-2 sm:py-3 bg-white text-indigo-600 rounded-full font-semibold transform hover:scale-105 transition-all text-sm sm:text-base"
                                 >
@@ -98,7 +98,7 @@ const CustomConstruction = () => {
                                 >
                                     Learn More
                                 </button>
-                            </div>
+                            </div> */}
                         </div>
 
                         <div

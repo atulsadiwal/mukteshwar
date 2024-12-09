@@ -31,8 +31,7 @@ const MainSection = () => {
                         <div className="w-8/12 space-y-4 mb-3 max-lg:w-6/12 max-md:w-10/12 max-sm:w-10/12 max-[400px]:w-full">
                             <div className="space-y-2">
                                 <h3 className="text-6xl text-white relative max-lg:text-4xl max-md:text-3xl max-sm:text-2xl">
-                                    Welcome to, <br />
-                                    Your Himalayan Escape Awaits<br />
+                                    Welcome to Suhani Vadiyan!<br />
                                     <strong className="max-lg:text-5xl max-md:text-4xl max-sm:text-3xl">Mukteshwar, Uttarakhand</strong>
                                 </h3>
                                 <p className="block mt-2 text-xl text-white max-sm:text-base max-sm:mt-1">

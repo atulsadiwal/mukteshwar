@@ -32,7 +32,7 @@ const NavBar = () => {
                         <div className='flex items-center'>
                             <h3 className={`font-bold text-2xl sm:text-3xl italic ${scrolled ? 'text-white' : 'text-black'
                                 }`}>
-                                Mukteshwar
+                                Suhani Vadiyan
                             </h3>
                         </div>
 
@@ -57,7 +57,7 @@ const NavBar = () => {
                             <Phone className={scrolled ? 'text-white' : 'text-black'} size={20} />
                             <span className={`text-base font-mono ${scrolled ? 'text-white' : 'text-black'
                                 }`}>
-                                +91 888-554-1451
+                                +91 9837033821
                             </span>
                         </div>
 
@@ -91,7 +91,7 @@ const NavBar = () => {
                                 <Phone className={scrolled ? 'text-white' : 'text-black'} size={20} />
                                 <span className={`text-base font-mono ${scrolled ? 'text-white' : 'text-black'
                                     }`}>
-                                    +91 888-554-1451
+                                    +91 9837033821
                                 </span>
                             </div>
                         </div>

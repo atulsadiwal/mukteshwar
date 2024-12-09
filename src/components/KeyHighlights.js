@@ -54,7 +54,7 @@ const KeyHighlights = () => {
                                 <h3 className="text-2xl font-semibold text-gray-800 ml-4">Prime Location</h3>
                             </div>
                             <p className="text-gray-600 text-lg">
-                                250 sq. mt. plots (or 1.25 Nalk plots) in Mukteshwar, close to Nainital, Bhimtal, and other tourist spots.
+                                250 Square Metre (1.25 Nali) plots in Mukteshwar, Uttarakhand. 51 Km from Nainital and 343 Km from Delhi. Very close to the Mukteshwar temple.
                             </p>
                         </div>
 
@@ -90,7 +90,7 @@ const KeyHighlights = () => {
                                 <h3 className="text-2xl font-semibold text-gray-800 ml-4">Essential Infrastructure</h3>
                             </div>
                             <p className="text-gray-600 text-lg">
-                                Complete electrical and water connections in place.
+                                Fully constructed approach road. Complete electrical and water connections in place.
                             </p>
                         </div>
 
@@ -123,10 +123,10 @@ const KeyHighlights = () => {
                                         clipRule="evenodd"
                                     />
                                 </svg>
-                                <h3 className="text-2xl font-semibold text-gray-800 ml-4">North-Facing Advantage</h3>
+                                <h3 className="text-2xl font-semibold text-gray-800 ml-4">Himalayan View Advantage</h3>
                             </div>
                             <p className="text-gray-600 text-lg">
-                                Enjoy stunning north-facing views of the Himalayas.
+                                Offering north facing, unobstructed, and breathtaking views of the Himalayan ranges, including peaks like Nanda Devi.
                             </p>
                         </div>
                     </div>
