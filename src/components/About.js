@@ -31,7 +31,7 @@ const About = () => {
         <section className="bg-gray-50">
             <div className="max-w-[1400px] mx-auto px-4 py-8 sm:py-12 lg:py-16">
                 <div className="flex flex-col lg:flex-row items-center gap-8 max-sm:gap-3">
-                    <div className="w-full lg:w-1/2 space-y-6 max-sm:space-y-2">
+                    <div className="w-full lg:w-1/2">
                         <a href="#" className="inline-block bg-blue-600 text-white px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base hover:bg-blue-700 transition duration-300 transform hover:scale-105 rounded-tl-xl rounded-br-xl">
                             About Us
                         </a>
