@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 
 const bgImages = [
-    'bg-BG1', 'bg-BG2', 'bg-BG3', 'bg-BG4', 'bg-BG5'
+    'bg-BG1', 'bg-BG2', 'bg-BG3', 'bg-BG4', 'bg-BG5', 'bg-BG7'
 ];
 
 const MainSection = () => {

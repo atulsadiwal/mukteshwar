@@ -107,9 +107,9 @@ const CustomConstruction = () => {
                             data-aos-delay="200"
                         >
                             <img
-                                src="/image/coustom-construction.jpeg"
+                                src="/image/coustom-construction.jpg"
                                 alt="Custom Construction"
-                                className="transition-all transform hover:scale-110 object-cover"
+                                className="transition-all transform hover:scale-110 object-cover h-96"
                             />
                             <div className="absolute inset-0 bg-black opacity-30"></div>
                         </div>

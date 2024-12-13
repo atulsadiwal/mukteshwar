@@ -36,7 +36,7 @@ const NavBar = () => {
                             </h3>
                         </div>
 
-                        <div className='hidden md:flex items-center space-x-4'>
+                        {/* <div className='hidden md:flex items-center space-x-4'>
                             <nav>
                                 <div className='flex space-x-4'>
                                     {['Home'].map((item) => (
@@ -51,13 +51,13 @@ const NavBar = () => {
                                     ))}
                                 </div>
                             </nav>
-                        </div>
+                        </div> */}
 
                         <div className='hidden md:flex items-center space-x-2'>
                             <Phone className={scrolled ? 'text-white' : 'text-black'} size={20} />
                             <span className={`text-base font-mono ${scrolled ? 'text-white' : 'text-black'
                                 }`}>
-                                +91 9837033821
+                                 +91 9599160936
                             </span>
                         </div>
 
@@ -74,7 +74,7 @@ const NavBar = () => {
 
                     {isMenuOpen && (
                         <div className='md:hidden mt-4'>
-                            <nav className='flex flex-col space-y-4'>
+                            {/* <nav className='flex flex-col space-y-4'>
                                 {['Home'].map((item) => (
                                     <Link
                                         key={item}
@@ -86,7 +86,7 @@ const NavBar = () => {
                                         {item}
                                     </Link>
                                 ))}
-                            </nav>
+                            </nav>       */}
                             <div className='mt-4 flex items-center space-x-2'>
                                 <Phone className={scrolled ? 'text-white' : 'text-black'} size={20} />
                                 <span className={`text-base font-mono ${scrolled ? 'text-white' : 'text-black'

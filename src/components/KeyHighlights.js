@@ -103,7 +103,7 @@ const KeyHighlights = () => {
 
                             <div className="mb-6">
                                 <img
-                                    src="/image/north-facing-view.jpeg"
+                                    src="/image/north-facing-view.jpg"
                                     alt="North Facing"
                                     className="w-full h-48 object-cover rounded-md shadow-lg"
                                 />
