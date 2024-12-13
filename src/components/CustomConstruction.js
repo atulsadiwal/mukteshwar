@@ -25,7 +25,7 @@ const CustomConstruction = () => {
         <>
             <section className="relative bg-cover bg-center py-12 sm:py-16 md:py-20 bg-BG6">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-                    <h2 className="text-5xl font-extrabold text-transparent bg-gradient-to-r from-indigo-500 via-purple-600 to-pink-500 bg-clip-text text-center mb-8 sm:mb-12 drop-shadow-xl  max-lg:text-4xl max-md:text-3xl max-sm:text-2xl">
+                    <h2 className="text-5xl font-extrabold text-transparent uppercase bg-gradient-to-r from-indigo-500 via-purple-600 to-pink-500 bg-clip-text text-center mb-8 sm:mb-12 drop-shadow-xl  max-lg:text-4xl max-md:text-3xl max-sm:text-2xl">
                         Custom Construction Services
                     </h2>
 
