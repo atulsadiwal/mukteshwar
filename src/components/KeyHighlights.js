@@ -17,7 +17,7 @@ const KeyHighlights = () => {
         <>
             <section className="py-20">
                 <div className="max-w-7xl mx-auto px-6 sm:px-12 lg:px-16">
-                    <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">
+                    <h2 className="text-4xl font-bold text-center text-gray-800 mb-12 max-md:text-3xl max-sm:text-2xl">
                         Key Highlights
                     </h2>
 
@@ -51,9 +51,9 @@ const KeyHighlights = () => {
                                         clipRule="evenodd"
                                     />
                                 </svg>
-                                <h3 className="text-2xl font-semibold text-gray-800 ml-4">Prime Location</h3>
+                                <h3 className="text-2xl font-semibold text-gray-800 ml-4 max-md:text-xl max-sm:text-lg">Prime Location</h3>
                             </div>
-                            <p className="text-gray-600 text-lg">
+                            <p className="text-gray-600 text-lg max-md:text-base max-sm:text-sm">
                                 250 Square Metre (1.25 Nali) plots in Mukteshwar, Uttarakhand. 51 Km from Nainital and 343 Km from Delhi. Very close to the Mukteshwar temple.
                             </p>
                         </div>
@@ -87,9 +87,9 @@ const KeyHighlights = () => {
                                         clipRule="evenodd"
                                     />
                                 </svg>
-                                <h3 className="text-2xl font-semibold text-gray-800 ml-4">Essential Infrastructure</h3>
+                                <h3 className="text-2xl font-semibold text-gray-800 ml-4 max-md:text-xl max-sm:text-lg">Essential Infrastructure</h3>
                             </div>
-                            <p className="text-gray-600 text-lg">
+                            <p className="text-gray-600 text-lg max-md:text-base max-sm:text-sm">
                                 Fully constructed approach road. Complete electrical and water connections in place.
                             </p>
                         </div>
@@ -123,9 +123,9 @@ const KeyHighlights = () => {
                                         clipRule="evenodd"
                                     />
                                 </svg>
-                                <h3 className="text-2xl font-semibold text-gray-800 ml-4">Himalayan View Advantage</h3>
+                                <h3 className="text-2xl font-semibold text-gray-800 ml-4 max-md:text-xl max-sm:text-lg">Himalayan View Advantage</h3>
                             </div>
-                            <p className="text-gray-600 text-lg">
+                            <p className="text-gray-600 text-lg max-md:text-base max-sm:text-sm">
                                 Offering north facing, unobstructed, and breathtaking views of the Himalayan ranges, including peaks like Nanda Devi.
                             </p>
                         </div>

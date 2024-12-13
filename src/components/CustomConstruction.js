@@ -68,20 +68,20 @@ const CustomConstruction = () => {
 
             <section className="relative bg-cover bg-center py-12 sm:py-16 md:py-20 bg-BG6">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-                    <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-transparent bg-gradient-to-r from-indigo-500 via-purple-600 to-pink-500 bg-clip-text text-center mb-8 sm:mb-12 drop-shadow-xl">
+                    <h2 className="text-5xl font-extrabold text-transparent bg-gradient-to-r from-indigo-500 via-purple-600 to-pink-500 bg-clip-text text-center mb-8 sm:mb-12 drop-shadow-xl  max-lg:text-4xl max-md:text-3xl max-sm:text-2xl">
                         Custom Construction Services
                     </h2>
 
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
                         <div
-                            className="text-white space-y-4 sm:space-y-6 flex flex-col justify-center"
+                            className="relative text-white space-y-4 sm:space-y-6 flex flex-col justify-center max-sm:text-gray-600"
                             data-aos="fade-up"
                             data-aos-delay="100"
                         >
-                            <h3 className="text-2xl sm:text-3xl font-semibold">
+                            <h3 className="text-3xl font-semibold max-md:text-2xl max-sm:text-xl">
                                 Option for construction based on your specific requirements
                             </h3>
-                            <p className="text-base sm:text-lg">
+                            <p className="text-lg max-md:text-base max-sm:text-sm">
                                 Build your dream home with a view that inspires. Whether you need
                                 a traditional style or a modern masterpiece, our expert team can
                                 help bring your vision to life with high-quality craftsmanship.
@@ -111,7 +111,7 @@ const CustomConstruction = () => {
                                 alt="Custom Construction"
                                 className="transition-all transform hover:scale-110 object-cover h-96"
                             />
-                            <div className="absolute inset-0 bg-black opacity-30"></div>
+                            <div className="absolute inset-0 bg-black opacity-30 max-sm:opacity-10"></div>
                         </div>
                     </div>
                 </div>
