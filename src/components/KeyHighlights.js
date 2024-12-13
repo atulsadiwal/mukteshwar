@@ -31,7 +31,7 @@ const KeyHighlights = () => {
 
                             <div className="mb-6">
                                 <img
-                                    src="/image/prime-location.jpeg"
+                                    src="/image/prime-location.webp"
                                     alt="Prime Location"
                                     className="w-full h-48 object-cover rounded-md shadow-lg"
                                 />
@@ -67,7 +67,7 @@ const KeyHighlights = () => {
 
                             <div className="mb-6">
                                 <img
-                                    src="/image/essential-infrastructure.jpeg"
+                                    src="/image/essential-infrastructure.webp"
                                     alt="Infrastructure"
                                     className="w-full h-48 object-cover rounded-md shadow-lg"
                                 />
@@ -103,7 +103,7 @@ const KeyHighlights = () => {
 
                             <div className="mb-6">
                                 <img
-                                    src="/image/north-facing-view.jpg"
+                                    src="/image/north-facing-view.webp"
                                     alt="North Facing"
                                     className="w-full h-48 object-cover rounded-md shadow-lg"
                                 />

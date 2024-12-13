@@ -52,7 +52,7 @@ const CustomConstruction = () => {
                             onClick={openModal}
                         >
                             <img
-                                src="/image/coustom-construction.jpg"
+                                src="/image/coustom-construction.webp"
                                 alt="Custom Construction"
                                 className="transition-all transform hover:scale-110 object-cover h-96 w-full"
                             />

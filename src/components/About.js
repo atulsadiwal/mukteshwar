@@ -6,19 +6,19 @@ import CubeSlider from "./CubeSlider"
 const About = () => {
     const slideData = [
         {
-            img: "/image/about.jpeg",
+            img: "/image/about.webp",
             title: "Himalayan View 1",
         },
         {
-            img: "/image/about-1.jpeg",
+            img: "/image/about-1.webp",
             title: "Himalayan View 2",
         },
         {
-            img: "/image/about-2.jpeg",
+            img: "/image/about-2.webp",
             title: "Himalayan View 3",
         },
         {
-            img: "/image/about-3.jpeg",
+            img: "/image/about-3.webp",
             title: "Himalayan View 4",
         }
     ]
