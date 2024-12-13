@@ -20,11 +20,7 @@ const About = () => {
         {
             img: "/image/about-3.jpeg",
             title: "Himalayan View 4",
-        },
-        {
-            img: "/image/about-4.jpeg",
-            title: "Himalayan View 5",
-        },
+        }
     ]
 
     return (

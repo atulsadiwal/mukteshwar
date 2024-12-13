@@ -1,30 +1,12 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
-
-const bgImages = [
-    'bg-BG1', 'bg-BG2', 'bg-BG3', 'bg-BG4', 'bg-BG5', 'bg-BG7'
-];
+import React from "react";
 
 const MainSection = () => {
 
-    const [currentBg, setCurrentBg] = useState(bgImages[0]);
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentBg((prevBg) => {
-                const currentIndex = bgImages.indexOf(prevBg);
-                const nextIndex = (currentIndex + 1) % bgImages.length;
-                return bgImages[nextIndex];
-            });
-        }, 5000);
-
-        return () => clearInterval(interval);
-    }, []);
-
     return (
         <>
-            <section className={`${currentBg} bg-no-repeat relative bg-cover bg-center flex items-center justify-center animate-zoomInOut h-[90vh] max-md:h-fit max-sm:h-fit py-24`}>
+            <section className="bg-BG1 bg-no-repeat relative bg-cover bg-bottom flex items-center justify-center animate-zoomInOut h-[90vh] max-md:h-fit max-sm:h-fit py-24">
                 <div className="absolute w-full h-full bg-gradient-to-r from-black/70 to-white/0 opacity-0.2" />
                 <div className="max-w-[1400px] mx-auto px-3 w-full relative z-10 max-sm:w-full mb-6">
                     <div className="flex justify-between items-center space-x-3 w-full max-md:flex-col max-sm:flex-col max-sm:space-x-0">
