@@ -6,7 +6,6 @@ const MainSection = () => {
 
     return (
         <>
-        <link rel="preload" href="/image/north-facing-view.webp" as="image" />
             <section className="bg-BG1 bg-no-repeat relative bg-cover bg-bottom flex items-center justify-center animate-zoomInOut h-[90vh] max-md:h-fit max-sm:h-fit py-24">
                 <div className="absolute w-full h-full bg-gradient-to-r from-black/70 to-white/0 opacity-0.2" />
                 <div className="max-w-[1400px] mx-auto px-3 w-full relative z-10 max-sm:w-full mb-6">
