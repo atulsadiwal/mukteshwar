@@ -5,6 +5,7 @@ import About from '@/components/About.js';
 import KeyHighlights from '@/components/KeyHighlights';
 import CustomConstruction from '@/components/CustomConstruction';
 import StickySocial from '@/components/StickySocial';
+import Footer from '@/components/Footer';
 
 const HomePage = () => {
     return (
@@ -15,6 +16,7 @@ const HomePage = () => {
             <KeyHighlights />
             <CustomConstruction />
             <StickySocial />
+            <Footer />
         </>
     );
 }
